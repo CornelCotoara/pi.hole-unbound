@@ -1,3 +1,9 @@
+# Use this image for up to date pihole stable!
+
+```
+docker pull ghcr.io/cornelcotoara/pi.hole-unbound:main
+```
+
 # Pi-Hole + Unbound - 1 Container
 
 ## Description

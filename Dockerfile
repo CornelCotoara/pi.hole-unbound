@@ -1,4 +1,4 @@
-FROM pihole/pihole:2022.01
+FROM pihole/pihole:2021.12.1
 RUN apt update && apt install -y unbound
 
 RUN curl -o /var/lib/unbound/root.hints https://www.internic.net/domain/named.root 
